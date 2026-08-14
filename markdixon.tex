@@ -7,11 +7,13 @@
 
 \newcommand{\PRLsep}{\noindent\makebox[\linewidth]{\resizebox{0.1\linewidth}{0.25pt}{$\bullet$}}}
 \newcommand{\rExperience}[5]{
-  \textbf{#1}, #2 \hfill #3
+  \noindent\begin{minipage}[t]{\linewidth}
+    \textbf{#1}, #2 \hfill #3
 
-  #4
-  
-  \begin{center} \textsc{\scriptsize #5 } \end{center}
+    #4
+
+    \begin{center} \textsc{\scriptsize #5 } \end{center}
+  \end{minipage}
 }
 
 
